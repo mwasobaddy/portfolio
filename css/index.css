@@ -35,7 +35,7 @@
 }
 
 
-@media (max-width: 767.98px) {
+@media (max-width: 991.98px) {
     #sideTopNav {
         position: fixed;
         transform: translateY(-100%);
@@ -48,14 +48,10 @@
         background: linear-gradient(
             45deg,
             #ffe2d1,
-            #d76d77,
-            #ffaf7b,
-            #ff7300,
-            #ffff00,
-            #ffff00,
             #ff7300,
             #ffaf7b,
-            #d76d77,
+            #ffaf7b,
+            #ff7300,
             #ffe2d1
         );
         background-size: 1000% 1000%;
@@ -70,14 +66,10 @@
         background: linear-gradient(
             45deg,
             #ffe2d1,
-            #d76d77,
-            #ffaf7b,
-            #ff7300,
-            #ffff00,
-            #ffff00,
             #ff7300,
             #ffaf7b,
-            #d76d77,
+            #ffaf7b,
+            #ff7300,
             #ffe2d1
         );
         background-size: 1000% 1000%;
