@@ -41,11 +41,11 @@ document.addEventListener("DOMContentLoaded", function() {// show and hide side 
 
     
     const titles = [
-        "Full-Stack Developer",
-        "Web Developer",
-        "Front-End Developer",
-        "Back-End Developer",
-        "UI/UX Designer"
+        " Full-Stack Developer",
+        " Web Developer",
+        " Front-End Developer",
+        " Back-End Developer",
+        " UI/UX Designer"
     ];
     let index = 0;
     let charIndex = 0;

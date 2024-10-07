@@ -24,7 +24,27 @@
     background-color: #ffe2d1;
 }
 
-.nav-link.active{
+.navbar-nav .nav-item{
+    width: fit-content;
+}
+
+.nav-link.inactive::after{
+    content: ' ';
+    position: absolute;
+    border-bottom: 2px solid black;
+    width: 230px;
+    bottom: 0px;
+    left: -230px;
+    height: -webkit-fill-available;
+}
+
+.nav-link.inactive:hover::after{
+    left: 0;
+    transition: all .5s ease-in-out;
+}
+
+.nav-item.active{
+    color: black;
     border-bottom: 2px solid black;
 }
 
@@ -137,7 +157,6 @@ header{
     border-right: 4px solid #ff7300;
     white-space: nowrap;
     animation: blink 0.75s step-end infinite;
-    padding: 10px;
     width: 100%;
 }
 @keyframes blink {
